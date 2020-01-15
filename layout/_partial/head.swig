@@ -37,7 +37,6 @@
 {#- Analytics and push -#}
 {%- if not env.debug -%}
   {%- include "../_script/analytics.swig" -%}
-  {%- include "../_script/push.swig" -%}
 {%- endif -%}
 
 {#- LeanCloud Counter -#}
